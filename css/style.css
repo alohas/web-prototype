@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #233249;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+
+}
+
+#wrapper {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+
+
+
+/* ----------------------NAV------------------------ */
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: ;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ea4e43;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sidenav a:hover {
+    color: #233249;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+/* ----------------------HEADER & FOOTER------------ */
+
+
+header {
+    background-color: #ea4e43;
+    padding: 25px;
+}
+
+span#burger {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+header img[alt="logo"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+header img[alt="mail"] {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #ea4e43;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* ----------------------MAIN---------------------- */
+
+fieldset {
+    border: none;
+}
+
+form#login {
+    background-color: white;
+}
+
+h1 {
+    font-family: "Helvetica Neue Condensed", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    padding: 15px;
+}
+
+h1.headers {
+    color: white;
+}
+
+
+label {
+    font-size: 40px;
+}
+
+input[type="email"],
+[type="password"] {
+    font-size: 30px;
+}
+
+label input {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+fieldset#button-area {
+    text-align: center;
+}
+
+button {
+    font-family: "Helvetica Neue Condensed", sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    background-color: #EA4E43;
+    color: black;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 15px 40px;
+
+}
+
+
+div#content-area {
+    background-color: white;
+    padding: 15px
+}
+
+div#box {
+    border-style: solid;
+    border-color: #233249;
+    border-width: medium;
+    padding: 10px;
+}
+
+div.setting {
+    border-style: solid;
+    border-bottom-color: black;
+    border-width: thin;
+    font-size: 30px;
+    padding: 5% 32px 5% 32px;
+    cursor: pointer;
+}
+
+div#box p{
+    font-size: 20px;
+}
+
+div#email{
+    border-bottom: solid thin;
+    padding: 8px 8px 8px 32px;
+    cursor: pointer;
+}
+
+div#email p{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+div#email p#time{
+    float: right;
+    
+}
+
+h2#info{
+    font-size: 22px;
+    text-align: center;
+}
+
+#black{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+a#notif{
+    border-bottom: solid thin black;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+a#notif:hover{
+    color: #ea4e43;
+}
+
+div#chat{
+    border-bottom: solid thin;
+    padding: 8px 8px 8px 32px;
+    cursor: pointer;
+}
+
+div#chat p{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+div#chat p#time{
+    float: right;
+    
+}
